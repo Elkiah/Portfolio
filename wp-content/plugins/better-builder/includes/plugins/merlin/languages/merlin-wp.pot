@@ -1,0 +1,177 @@
+# Copyright (C) 2018 Merlin-WP
+# This file is distributed under the same license as the Merlin-WP package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Merlin-WP\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: Merlin WP\n"
+"Last-Translator: Rich Tabor <hello@merlinwp.com>\n"
+"Report-Msgid-Bugs-To: https://merlinwp.com\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: merlin.php:379
+msgid "Something went wrong. Please refresh the page and try again!"
+msgstr ""
+
+#: merlin.php:530
+msgid "Please define default parameters in the form of an array."
+msgstr ""
+
+#: merlin.php:535
+msgid "Please define an SVG icon filename."
+msgstr ""
+
+#: merlin.php:629
+msgid "Welcome"
+msgstr ""
+
+#: merlin.php:636
+msgid "Child"
+msgstr ""
+
+#: merlin.php:643
+msgid "Plugins"
+msgstr ""
+
+#: merlin.php:651, merlin.php:1481
+msgid "Content"
+msgstr ""
+
+#: merlin.php:657
+msgid "Ready"
+msgstr ""
+
+#: merlin.php:906
+msgid "Install"
+msgstr ""
+
+#: merlin.php:909
+msgid "Update"
+msgstr ""
+
+#: merlin.php:912
+msgid "Activate"
+msgstr ""
+
+#: merlin.php:914
+msgid "and"
+msgstr ""
+
+#: merlin.php:976
+msgid "Select which demo data you want to import:"
+msgstr ""
+
+#: merlin.php:1293
+msgid "Activating"
+msgstr ""
+
+#: merlin.php:1309
+msgid "Updating"
+msgstr ""
+
+#: merlin.php:1325, merlin.php:1484, merlin.php:1497, merlin.php:1510, merlin.php:1523, merlin.php:1536, merlin.php:1549, merlin.php:1590
+msgid "Installing"
+msgstr ""
+
+#: merlin.php:1335, merlin.php:1485, merlin.php:1498, merlin.php:1511, merlin.php:1524, merlin.php:1537, merlin.php:1550
+msgid "Success"
+msgstr ""
+
+#: merlin.php:1356
+msgid "Invalid content!"
+msgstr ""
+
+#: merlin.php:1394
+msgid "Error"
+msgstr ""
+
+#: merlin.php:1482
+msgid "Demo content data."
+msgstr ""
+
+#: merlin.php:1483, merlin.php:1496, merlin.php:1509, merlin.php:1522, merlin.php:1535, merlin.php:1548
+msgid "Pending"
+msgstr ""
+
+#: merlin.php:1494
+msgid "Widgets"
+msgstr ""
+
+#: merlin.php:1495
+msgid "Sample widgets data."
+msgstr ""
+
+#: merlin.php:1507
+msgid "Revolution Slider"
+msgstr ""
+
+#: merlin.php:1508
+msgid "Sample Revolution sliders data."
+msgstr ""
+
+#: merlin.php:1520
+msgid "Options"
+msgstr ""
+
+#: merlin.php:1521
+msgid "Sample theme options data."
+msgstr ""
+
+#: merlin.php:1533
+msgid "Redux Options"
+msgstr ""
+
+#: merlin.php:1534
+msgid "Redux framework options."
+msgstr ""
+
+#: merlin.php:1546
+msgid "After import setup"
+msgstr ""
+
+#: merlin.php:1547
+msgid "After import setup."
+msgstr ""
+
+#: includes/class-merlin-widget-importer.php:64
+msgid "Error: Widget import file could not be found."
+msgstr ""
+
+#: includes/class-merlin-widget-importer.php:94
+msgid "Error: Widget import data could not be read. Please try a different file."
+msgstr ""
+
+#: includes/class-merlin-widget-importer.php:133
+msgid "Sidebar does not exist in theme (moving widget to Inactive)"
+msgstr ""
+
+#: includes/class-merlin-widget-importer.php:154
+msgid "Site does not support widget"
+msgstr ""
+
+#: includes/class-merlin-widget-importer.php:187
+msgid "Widget already exists"
+msgstr ""
+
+#: includes/class-merlin-widget-importer.php:245
+msgid "Imported"
+msgstr ""
+
+#: includes/class-merlin-widget-importer.php:249
+msgid "Imported to Inactive"
+msgstr ""
+
+#: includes/class-merlin-widget-importer.php:255
+msgid "No Title"
+msgstr ""
+
+#: includes/class-merlin-widget-importer.php:317
+msgid "No results for widget import!"
+msgstr ""

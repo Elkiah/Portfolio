@@ -1,0 +1,22 @@
+.betterbuilder-icon {
+    font-style: normal
+}
+
+.betterbuilder-icon::before {
+    content: 'BB';
+    background: #ffb836;
+    padding: 7px;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    font-size: 11px;
+    text-align: center;
+    border-radius: 7px 2px;
+    letter-spacing: .5px;
+    color: #000;
+    display: block;
+    width: 30px;
+    margin: auto
+}
+
+.better_tilt_inner_resize {
+    position: relative !important;
+}

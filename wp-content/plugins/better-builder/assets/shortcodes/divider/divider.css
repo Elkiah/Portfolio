@@ -1,0 +1,17 @@
+.intense.top-divider, 
+.intense.bottom-divider {
+	margin: 0;
+	padding: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	position: absolute;
+}
+
+.intense.top-divider {		
+	top: 0;		
+}
+
+.intense.bottom-divider {		
+	bottom: 0;		
+}

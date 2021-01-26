@@ -1,0 +1,33 @@
+.intense.bottom-divider .circle-edge, .intense.top-divider .circle-edge {
+	left: 0;
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	background: inherit;
+	border-radius: 0 0 100% 0;
+}
+
+.intense.bottom-divider.circle-edge::after, .intense.top-divider.circle-edge::after {
+	content: '';
+	width: 100px;
+	height: 100px;
+	right: 0;	
+	background: inherit;
+	position: absolute;
+	border-radius: 0 0 0 100%;
+	top: 0;
+}
+
+.intense.bottom-divider .circle-edge {
+	top: 0;
+}
+
+.intense.top-divider .circle-edge {
+	top: 0;
+}
+
+.intense.bottom-divider.circle-edge {
+	-webkit-transform: scale(1, -1);
+	-ms-transform: scale(1, -1);
+	transform: scale(1, -1);
+}

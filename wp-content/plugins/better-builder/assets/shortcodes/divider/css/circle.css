@@ -1,0 +1,19 @@
+.intense.bottom-divider .circle, .intense.top-divider .circle {
+	left: 50%;
+	width: 100px;
+	height: 100px;
+	-webkit-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	transform: translateX(-50%);
+	background: #ccc;
+	position: absolute;
+	border-radius: 50%;
+}
+
+.intense.bottom-divider .circle {
+	top: -50px;
+}
+
+.intense.top-divider .circle {
+	top: -50px;
+}

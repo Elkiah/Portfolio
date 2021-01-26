@@ -1,0 +1,150 @@
+figure.effect-ls-x {
+  background-color: #fff;
+  color: #ffffff;
+  display: inline-block;
+  margin: 10px 5px;
+  overflow: hidden;
+  position: relative;
+  text-align: right !important;
+  width: 100%;
+}
+
+figure.effect-ls-x *,
+figure.effect-ls-x *:before,
+figure.effect-ls-x *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.45s ease;
+  transition: all 0.45s ease;
+}
+
+figure.effect-ls-x img {
+  backface-visibility: hidden;
+  max-width: 100%;
+  vertical-align: top;
+}
+
+figure.effect-ls-x:before,
+figure.effect-ls-x:after {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  content: '';
+  background-color: #000;
+  opacity: 0.4;
+  -webkit-transition: all 0.45s ease;
+  transition: all 0.45s ease;
+}
+
+figure.effect-ls-x:before {
+  -webkit-transform: skew(30deg) translateX(80%);
+  transform: skew(30deg) translateX(80%);
+  z-index: 1;
+}
+
+figure.effect-ls-x:after {
+  -webkit-transform: skew(-30deg) translateX(75%);
+  transform: skew(-30deg) translateX(75%);
+}
+
+figure.effect-ls-x figcaption {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 1;
+  bottom: 0;
+  padding: 20px 20px 20px 40%;
+}
+
+figure.effect-ls-x figcaption:before,
+figure.effect-ls-x figcaption:after {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #000;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+  content: '';
+  opacity: 0.4;
+  z-index: -1;
+}
+
+figure.effect-ls-x figcaption:before {
+  -webkit-transform: skew(30deg) translateX(95%);
+  transform: skew(30deg) translateX(95%);
+}
+
+figure.effect-ls-x figcaption:after {
+  -webkit-transform: skew(-30deg) translateX(90%);
+  transform: skew(-30deg) translateX(90%);
+}
+
+figure.effect-ls-x h2,
+figure.effect-ls-x .effect-description {
+  margin: 0;
+  opacity: 0;
+  letter-spacing: 1px;
+}
+
+figure.effect-ls-x h2 {
+  font-weight: 700;
+  line-height: 1em;
+  text-transform: uppercase;
+}
+
+figure.effect-ls-x .effect-description {
+  font-size: 0.9em;
+}
+
+figure.effect-ls-x a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+figure.effect-ls-x:hover h2,
+figure.effect-ls-x.hover h2,
+figure.effect-ls-x:hover .effect-description,
+figure.effect-ls-x.hover .effect-description {
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+  opacity: 0.9;
+}
+
+figure.effect-ls-x:hover:before,
+figure.effect-ls-x.hover:before {
+  -webkit-transform: skew(30deg) translateX(40%);
+  transform: skew(30deg) translateX(40%);
+  -webkit-transition-delay: 0.05s;
+  transition-delay: 0.05s;
+}
+
+figure.effect-ls-x:hover:after,
+figure.effect-ls-x.hover:after {
+  -webkit-transform: skew(-30deg) translateX(35%);
+  transform: skew(-30deg) translateX(35%);
+}
+
+figure.effect-ls-x:hover figcaption:before,
+figure.effect-ls-x.hover figcaption:before {
+  -webkit-transform: skew(30deg) translateX(55%);
+  transform: skew(30deg) translateX(55%);
+  -webkit-transition-delay: 0.15s;
+  transition-delay: 0.15s;
+}
+
+figure.effect-ls-x:hover figcaption:after,
+figure.effect-ls-x.hover figcaption:after {
+  -webkit-transform: skew(-30deg) translateX(50%);
+  transform: skew(-30deg) translateX(50%);
+  -webkit-transition-delay: 0.1s;
+  transition-delay: 0.1s;
+}

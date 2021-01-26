@@ -1,0 +1,11 @@
+{
+    "title": "Font Awesome",
+    "name": "font-awesome",
+    "author": "Dave Gandy",
+    "license": {
+        "type": "SIL OFL 1.1",
+        "url": "http:\/\/scripts.sil.org\/OFL"
+    },
+    "website": "http:\/\/fortawesome.github.io\/Font-Awesome\/",
+    "source": "http:\/\/fortawesome.github.io\/Font-Awesome\/"
+}

@@ -1,0 +1,47 @@
+[
+    {
+        "name": "proteusthemes/wp-content-importer-v2",
+        "version": "v2.0.2",
+        "version_normalized": "2.0.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/proteusthemes/WordPress-Importer.git",
+            "reference": "704d3900b189ef58733e7eab75becd370d47ef9e"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/proteusthemes/WordPress-Importer/zipball/704d3900b189ef58733e7eab75becd370d47ef9e",
+            "reference": "704d3900b189ef58733e7eab75becd370d47ef9e",
+            "shasum": ""
+        },
+        "time": "2018-02-09 08:14:54",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "ProteusThemes\\WPContentImporter2\\": "src/"
+            }
+        },
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "Contributors",
+                "homepage": "https://github.com/humanmade/WordPress-Importer/graphs/contributors"
+            }
+        ],
+        "description": "WP content importer v2 forked from humanmade/wordpress-importer.",
+        "keywords": [
+            "content",
+            "import",
+            "proteusthemes",
+            "theme",
+            "wordpress",
+            "wp"
+        ],
+        "support": {
+            "source": "https://github.com/proteusthemes/WordPress-Importer/tree/v2.0.2"
+        }
+    }
+]

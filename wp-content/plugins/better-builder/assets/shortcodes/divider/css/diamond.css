@@ -1,0 +1,17 @@
+.intense.bottom-divider .diamond-square, .intense.top-divider .diamond-square {
+	left: 50%;
+	width: 100px;
+	height: 100px;
+	-webkit-transform: translateX(-50%) rotate(45deg);
+	-ms-transform: translateX(-50%) rotate(45deg);
+	transform: translateX(-50%) rotate(45deg);	
+	position: absolute;
+}
+
+.intense.bottom-divider .diamond-square {
+	top: -50px;
+}
+
+.intense.top-divider .diamond-square {
+	top: -50px;
+}

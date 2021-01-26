@@ -1,0 +1,118 @@
+/* Main column width */
+/* body.block-editor-page .editor-post-title__block,
+body.block-editor-page .editor-default-block-appender,
+body.block-editor-page .editor-block-list__block {
+    max-width: 1140px;
+} */
+
+body.block-editor-page .editor-block-list__layout > .editor-block-list__block[data-type="bb-gutenberg/box"] .editor-block-list__block {
+    max-width: 1140px;
+}
+
+.editor-block-list__layout .editor-block-list__block[data-align=fullboxed] {
+	max-width: none !important;
+}
+
+.editor-block-list__layout .editor-block-list__block[data-align=fullboxed] {
+    margin-left: -45px;
+    margin-right: -45px
+}
+
+.editor-block-list__layout .editor-block-list__block[data-align=fullboxed]>.editor-block-list__block-edit {
+    margin-left: -44px;
+    margin-right: -44px;
+}
+
+.editor-block-list__layout .editor-block-list__block[data-align=fullboxed]>.editor-block-list__block-edit:before {
+    border-left-width: 0;
+    border-right-width: 0;
+    left: 0;
+	right: 0;
+	outline: none;
+}
+
+.wp-block[data-align=fullboxed]:before {
+    content: none;
+}
+
+.editor-block-list__block[data-align=fullboxed]>.editor-block-list__breadcrumb {
+    right: -1px
+}
+
+.editor-block-list__block[data-align=fullboxed]>.editor-block-mover,
+.editor-block-list__block[data-align=fullboxed]>.editor-block-settings-menu {
+    top: -44px;
+    bottom: auto;
+    min-height: 0;
+    height: auto;
+    width: auto;
+    z-index: inherit
+}
+
+body.block-editor-page .editor-block-list__block[data-align=fullboxed]>.editor-block-settings-menu {
+    width: 28px;
+    flex-direction: row;
+    right: 2px
+}
+
+body.block-editor-page .editor-block-list__block[data-align=fullboxed]>.editor-block-list__block-draggable,
+body.block-editor-page .editor-block-list__block[data-align=fullboxed]>.editor-block-list__insertion-point {
+    left: 0;
+    right: 0
+}
+
+body.block-editor-page .editor-block-list__block[data-align=fullboxed]>.editor-block-mover {
+    left: 1px
+}
+
+body.block-editor-page .editor-block-list__block[data-align=fullboxed]>.editor-block-mover .editor-block-mover__control,
+body.block-editor-page .editor-block-list__block[data-align=fullboxed]>.editor-block-settings-menu>* {
+    float: left
+}
+
+/* Tab */
+.better-inspect-tabs .components-tab-panel__tabs button {
+    background: #ddd;
+    border: 0;
+    padding: 10px;
+    width: 50%;
+    cursor: pointer;
+}
+
+.better-type-tabs .components-tab-panel__tabs {
+    margin-bottom: 20px;
+}
+
+.better-inspect-tabs .components-tab-panel__tabs .active-tab {
+    background: #333;
+    color: #fff;
+}
+
+@media only screen and (min-width:1280px) {
+    body.block-editor-page .editor-block-list__block[data-align=fullboxed]>.editor-block-mover {
+        display: block
+    }
+}
+
+@media only screen and (min-width:600px) {
+    body.block-editor-page .editor-block-list__block[data-align=fullboxed]>.editor-block-list__block-edit>.editor-block-contextual-toolbar {
+        height: 0;
+		text-align: center;
+		width: calc(100% + -30px);
+		margin-left: 0;
+		margin-right: 0;
+		width: 100%;
+	}
+
+	body.block-editor-page .edit-post-visual-editor .editor-block-list__block[data-align=fullboxed]>.editor-block-list__block-edit>.editor-block-contextual-toolbar .editor-block-toolbar {
+		display: inline-flex;
+	}
+
+    body.block-editor-page .edit-post-visual-editor .editor-block-list__block[data-align=fullboxed]>.editor-block-list__block-edit>.editor-block-contextual-toolbar .editor-block-toolbar {
+        max-width: 608px;
+        width: 100%;
+		position: relative;
+    }
+}
+
+

@@ -1,0 +1,8 @@
+.intense.top-divider.triangle {}	
+
+.intense.bottom-divider.triangle {
+	-webkit-transform: scale(1, -1);
+	-ms-transform: scale(1, -1);
+	transform: scale(1, -1);
+	margin-bottom: -1px;
+}

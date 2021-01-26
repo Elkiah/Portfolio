@@ -1,0 +1,54 @@
+figure.effect-lily img {
+	opacity: .7;
+	-webkit-transition: opacity .35s, -webkit-transform .35s;
+	transition: opacity .35s, transform .35s;
+	-webkit-transform: translate3d(-40px, 0, 0);
+	-ms-transform: translate3d(-40px, 0, 0);
+	transform: translate3d(-40px, 0, 0)
+}
+
+figure.effect-lily figcaption {
+	top: auto;
+	bottom: 0;
+	height: 50%;
+	text-align: left
+}
+
+figure.effect-lily h2,
+figure.effect-lily .effect-description {
+	-webkit-transform: translate3d(0, 40px, 0);
+	-ms-transform: translate3d(0, 40px, 0);
+	transform: translate3d(0, 40px, 0)
+}
+
+figure.effect-lily h2 {
+	-webkit-transition: -webkit-transform .35s;
+	transition: transform .35s
+}
+
+figure.effect-lily .effect-description {
+	color: rgba(255, 255, 255, .6);
+	opacity: 0;
+	-webkit-transition: opacity .2s, -webkit-transform .35s;
+	transition: opacity .2s, transform .35s
+}
+
+figure.effect-lily:hover img,
+figure.effect-lily:hover .effect-description {
+	opacity: 1
+}
+
+figure.effect-lily:hover h2,
+figure.effect-lily:hover img,
+figure.effect-lily:hover .effect-description {
+	-webkit-transform: translate3d(0, 0, 0);
+	-ms-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0)
+}
+
+figure.effect-lily:hover .effect-description {
+	-webkit-transition-delay: .05s;
+	transition-delay: .05s;
+	-webkit-transition-duration: .35s;
+	transition-duration: .35s
+}

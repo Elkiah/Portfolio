@@ -1,0 +1,9 @@
+.intense.top-divider.triangle-big-shadow-right {
+}
+
+.intense.bottom-divider.triangle-big-shadow-right {
+	-webkit-transform: scale(1, -1);
+	-ms-transform: scale(1, -1);
+	transform: scale(1, -1);
+	margin-bottom: -1px;
+}

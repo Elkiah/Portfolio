@@ -1,0 +1,58 @@
+figure.effect-chico img {
+	-webkit-transition: opacity .35s, -webkit-transform .35s;
+	transition: opacity .35s, transform .35s;
+	-webkit-transform: scale(1.12);
+	-ms-transform: scale(1.12);
+	transform: scale(1.12)
+}
+
+figure.effect-chico:hover img {
+	opacity: .5;
+	-webkit-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1)
+}
+
+figure.effect-chico figcaption {
+	padding: 3em
+}
+
+figure.effect-chico figcaption::before {
+	position: absolute;
+	top: 30px;
+	right: 30px;
+	bottom: 30px;
+	left: 30px;
+	border: 1px solid #fff;
+	content: '';
+	-webkit-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1)
+}
+
+figure.effect-chico figcaption::before,
+figure.effect-chico .effect-description {
+	opacity: 0;
+	-webkit-transition: opacity .35s, -webkit-transform .35s;
+	transition: opacity .35s, transform .35s
+}
+
+figure.effect-chico h2 {
+	padding: 20% 0 20px
+}
+
+figure.effect-chico .effect-description {
+	margin: 0 auto !important;
+	max-width: 200px;
+	-webkit-transform: scale(1.5);
+	-ms-transform: scale(1.5);
+	transform: scale(1.5)
+}
+
+figure.effect-chico:hover figcaption::before,
+figure.effect-chico:hover .effect-description {
+	opacity: 1;
+	-webkit-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1)
+}

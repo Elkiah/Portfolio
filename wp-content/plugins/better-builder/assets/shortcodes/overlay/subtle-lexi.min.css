@@ -1,0 +1,90 @@
+figure.effect-lexi {
+	background: -webkit-linear-gradient(-45deg, #000 0, #fff 100%) !important;
+	background: -webkit-linear-gradient(135deg, #000 0, #fff 100%) !important;
+	background: linear-gradient(-45deg, #000 0, #fff 100%) !important
+}
+
+figure.effect-lexi img {
+	margin: -10px 0 0 -10px;
+	max-width: none;
+	opacity: .9;
+	-webkit-transition: opacity .35s, -webkit-transform .35s;
+	transition: opacity .35s, transform .35s;
+	-webkit-transform: translate3d(10px, 10px, 0);
+	-ms-transform: translate3d(10px, 10px, 0);
+	transform: translate3d(10px, 10px, 0);
+	-webkit-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
+	backface-visibility: hidden
+}
+
+figure.effect-lexi figcaption::before,
+figure.effect-lexi .effect-description {
+	-webkit-transition: opacity .35s, -webkit-transform .35s;
+	transition: opacity .35s, transform .35s
+}
+
+figure.effect-lexi figcaption::before {
+	position: absolute;
+	right: -100px;
+	bottom: -100px;
+	width: 300px;
+	height: 300px;
+	border: 2px solid #fff;
+	border-radius: 50%;
+	-webkit-box-shadow: 0 0 0 900px rgba(255, 255, 255, .2);
+	box-shadow: 0 0 0 900px rgba(255, 255, 255, .2);
+	content: '';
+	opacity: 0;
+	-webkit-transform: scale3d(0.5, .5, 1);
+	-ms-transform: scale3d(0.5, .5, 1);
+	transform: scale3d(0.5, .5, 1);
+	-webkit-transform-origin: 50% 50%;
+	-ms-transform-origin: 50% 50%;
+	transform-origin: 50% 50%
+}
+
+figure.effect-lexi:hover img {
+	opacity: .6;
+	-webkit-transform: translate3d(0, 0, 0);
+	-ms-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0)
+}
+
+figure.effect-lexi h2 {
+	text-align: left;
+	-webkit-transition: -webkit-transform .35s;
+	transition: transform .35s;
+	-webkit-transform: translate3d(5px, 5px, 0);
+	-ms-transform: translate3d(5px, 5px, 0);
+	transform: translate3d(5px, 5px, 0)
+}
+
+figure.effect-lexi .effect-description {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	padding: 0 1.5em 1.5em 0;
+	width: 140px;
+	text-align: right;
+	font-size: 14px;
+	opacity: 0;
+	-webkit-transform: translate3d(20px, 20px, 0);
+	-ms-transform: translate3d(20px, 20px, 0);
+	transform: translate3d(20px, 20px, 0)
+}
+
+figure.effect-lexi:hover figcaption::before {
+	opacity: 1;
+	-webkit-transform: scale3d(1, 1, 1);
+	-ms-transform: scale3d(1, 1, 1);
+	transform: scale3d(1, 1, 1)
+}
+
+figure.effect-lexi:hover h2,
+figure.effect-lexi:hover .effect-description {
+	opacity: 1;
+	-webkit-transform: translate3d(0, 0, 0);
+	-ms-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0)
+}
