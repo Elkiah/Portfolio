@@ -86,10 +86,10 @@
 
 /* Included for Phoebe and Winston because of the triangle svg */
 figure.effect-phoebe figcaption::before {
-	background: url(../../img/triangle2.svg) no-repeat center center;
+	background: url(/wp-content/plugins/better-builder/assets/img/triangle2.svg) no-repeat center center;
 }
 
 
 figure.effect-winston figcaption::before {
-	background: url(../../img/triangle.svg) no-repeat center center;
+	background: url(/wp-content/plugins/better-builder/assets/img/triangle.svg) no-repeat center center;
 }

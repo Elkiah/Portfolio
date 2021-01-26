@@ -1,3 +1,0 @@
-li{
-	"extends": "stylelint-config-wordpress",
-}
