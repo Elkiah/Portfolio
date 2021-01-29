@@ -4,22 +4,19 @@
 	xmlns:atom="http://www.w3.org/2005/Atom"
 	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
 	
-	xmlns:georss="http://www.georss.org/georss"
-	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-	
 	>
 <channel>
 	<title>
 	Comments on: Hello world!	</title>
 	<atom:link href="/2020/07/24/hello-world/feed/" rel="self" type="application/rss+xml" />
-	<link>/2020/07/24/hello-world/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=hello-world</link>
+	<link>/2020/07/24/hello-world/</link>
 	<description></description>
 	<lastBuildDate>Fri, 24 Jul 2020 11:14:32 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.4.4</generator>
+	<generator>https://wordpress.org/?v=5.6</generator>
 	<item>
 		<title>
 		By: A WordPress Commenter		</title>
