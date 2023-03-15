@@ -1,0 +1,83 @@
+figure.effect-selena {
+	background: #fff
+}
+
+figure.effect-selena img {
+	opacity: .95;
+	-webkit-transition: -webkit-transform .35s;
+	transition: transform .35s;
+	-webkit-transform-origin: 50% 50%;
+	-ms-transform-origin: 50% 50%;
+	transform-origin: 50% 50%
+}
+
+figure.effect-selena:hover img {
+	-webkit-transform: scale3d(0.95, .95, 1);
+	-ms-transform: scale3d(0.95, .95, 1);
+	transform: scale3d(0.95, .95, 1)
+}
+
+figure.effect-selena figcaption::after,
+figure.effect-selena figcaption::before {
+	position: absolute;
+	width: 200%;
+	height: 200%;
+	border-style: solid;
+	border-color: #101010;
+	content: '';
+	-webkit-transition: -webkit-transform .35s;
+	transition: transform .35s
+}
+
+figure.effect-selena figcaption::before {
+	right: 0;
+	bottom: 0;
+	border-width: 15px;
+	-webkit-transform: translate3d(70px, 60px, 0);
+	-ms-transform: translate3d(70px, 60px, 0);
+	transform: translate3d(70px, 60px, 0)
+}
+
+figure.effect-selena figcaption::after {
+	top: 0;
+	left: 0;
+	border-width: 15px 0 0 15px;
+	-webkit-transform: translate3d(-15px, -15px, 0);
+	-ms-transform: translate3d(-15px, -15px, 0);
+	transform: translate3d(-15px, -15px, 0)
+}
+
+figure.effect-selena h2 {
+	-webkit-transition: -webkit-transform .35s;
+	transition: transform .35s;
+	-webkit-transform: translate3d(0, 20px, 0);
+	-ms-transform: translate3d(0, 20px, 0);
+	transform: translate3d(0, 20px, 0)
+}
+
+figure.effect-selena .effect-description {
+	opacity: 0;
+	-webkit-transition: opacity .35s, -webkit-transform .35s;
+	transition: opacity .35s, transform .35s;
+	-webkit-transform: perspective(1000px) rotate3d(1, 0, 0, 90deg);
+	-ms-transform: perspective(1000px) rotate3d(1, 0, 0, 90deg);
+	transform: perspective(1000px) rotate3d(1, 0, 0, 90deg);
+	-webkit-transform-origin: 50% 0;
+	-ms-transform-origin: 50% 0;
+	transform-origin: 50% 0
+}
+
+figure.effect-selena:hover figcaption::after,
+figure.effect-selena:hover figcaption::before,
+figure.effect-selena:hover h2 {
+	-webkit-transform: translate3d(0, 0, 0);
+	-ms-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0)
+}
+
+figure.effect-selena:hover .effect-description {
+	opacity: 1;
+	-webkit-transform: perspective(1000px) rotate3d(1, 0, 0, 0);
+	-ms-transform: perspective(1000px) rotate3d(1, 0, 0, 0);
+	transform: perspective(1000px) rotate3d(1, 0, 0, 0)
+}
