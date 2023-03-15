@@ -1,0 +1,107 @@
+figure.effect-hera {
+	background: #303fa9
+}
+
+figure.effect-hera h2 {
+	font-size: 158.75%
+}
+
+figure.effect-hera h2,
+figure.effect-hera .effect-description {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transition: opacity .35s, -webkit-transform .35s;
+	transition: opacity .35s, transform .35s;
+	-webkit-transform: translate3d(-50%, -50%, 0);
+	-ms-transform: translate3d(-50%, -50%, 0);
+	transform: translate3d(-50%, -50%, 0);
+	-webkit-transform-origin: 50%;
+	-ms-transform-origin: 50%;
+	transform-origin: 50%
+}
+
+figure.effect-hera figcaption::before {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 200px;
+	height: 200px;
+	border: 2px solid #fff;
+	content: '';
+	opacity: 0;
+	-webkit-transition: opacity .35s, -webkit-transform .35s;
+	transition: opacity .35s, transform .35s;
+	-webkit-transform: translate3d(-50%, -50%, 0) rotate3d(0, 0, 1, -45deg) scale3d(0, 0, 1);
+	-ms-transform: translate3d(-50%, -50%, 0) rotate3d(0, 0, 1, -45deg) scale3d(0, 0, 1);
+	transform: translate3d(-50%, -50%, 0) rotate3d(0, 0, 1, -45deg) scale3d(0, 0, 1);
+	-webkit-transform-origin: 50%;
+	-ms-transform-origin: 50%;
+	transform-origin: 50%
+}
+
+figure.effect-hera .effect-description {
+	width: 100px;
+	text-transform: none
+}
+
+figure.effect-hera .effect-description a {
+	color: #fff
+}
+
+figure.effect-hera .effect-description a:focus,
+figure.effect-hera .effect-description a:hover {
+	opacity: .6
+}
+
+figure.effect-hera .effect-description {
+	opacity: 0;
+	-webkit-transition: opacity .35s, -webkit-transform .35s;
+	transition: opacity .35s, transform .35s
+}
+
+figure.effect-hera .effect-description a:first-child i {
+	-webkit-transform: translate3d(-60px, -60px, 0);
+	-ms-transform: translate3d(-60px, -60px, 0);
+	transform: translate3d(-60px, -60px, 0)
+}
+
+figure.effect-hera .effect-description a:nth-child(2) i {
+	-webkit-transform: translate3d(60px, -60px, 0);
+	-ms-transform: translate3d(60px, -60px, 0);
+	transform: translate3d(60px, -60px, 0)
+}
+
+figure.effect-hera .effect-description a:nth-child(3) i {
+	-webkit-transform: translate3d(-60px, 60px, 0);
+	-ms-transform: translate3d(-60px, 60px, 0);
+	transform: translate3d(-60px, 60px, 0)
+}
+
+figure.effect-hera .effect-description a:nth-child(4) i {
+	-webkit-transform: translate3d(60px, 60px, 0);
+	-ms-transform: translate3d(60px, 60px, 0);
+	transform: translate3d(60px, 60px, 0)
+}
+
+figure.effect-hera:hover figcaption::before {
+	opacity: 1;
+	-webkit-transform: translate3d(-50%, -50%, 0) rotate3d(0, 0, 1, -45deg) scale3d(1, 1, 1);
+	-ms-transform: translate3d(-50%, -50%, 0) rotate3d(0, 0, 1, -45deg) scale3d(1, 1, 1);
+	transform: translate3d(-50%, -50%, 0) rotate3d(0, 0, 1, -45deg) scale3d(1, 1, 1)
+}
+
+figure.effect-hera:hover h2 {
+	opacity: 0;
+	-webkit-transform: translate3d(-50%, -50%, 0) scale3d(0.8, .8, 1);
+	-ms-transform: translate3d(-50%, -50%, 0) scale3d(0.8, .8, 1);
+	transform: translate3d(-50%, -50%, 0) scale3d(0.8, .8, 1)
+}
+
+figure.effect-hera:hover .effect-description {
+	-webkit-transform: translate3d(-50%, -50%, 0) scale3d(1, 1, 1);
+	-ms-transform: translate3d(-50%, -50%, 0) scale3d(1, 1, 1);
+	transform: translate3d(-50%, -50%, 0) scale3d(1, 1, 1);
+	opacity: 1
+}
+/*This file was exported by "Export WP Page to Static HTML" plugin which created by ReCorp (https://myrecorp.com) */

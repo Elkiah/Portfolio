@@ -1,0 +1,74 @@
+figure.effect-kira {
+	background: #fff;
+	text-align: left
+}
+
+figure.effect-kira img {
+	-webkit-transition: opacity .35s;
+	transition: opacity .35s
+}
+
+figure.effect-kira figcaption {
+	z-index: 1
+}
+
+figure.effect-kira .effect-description {
+	padding: 2.25em .5em;
+	font-weight: 600;
+	font-size: 100%;
+	line-height: 1.5;
+	opacity: 0;
+	-webkit-transition: opacity .35s, -webkit-transform .35s;
+	transition: opacity .35s, transform .35s;
+	-webkit-transform: translate3d(0, -10px, 0);
+	-ms-transform: translate3d(0, -10px, 0);
+	transform: translate3d(0, -10px, 0)
+}
+
+figure.effect-kira .effect-description a {
+	margin: 0 .5em;
+	color: #101010
+}
+
+figure.effect-kira .effect-description a:focus,
+figure.effect-kira .effect-description a:hover {
+	opacity: .6
+}
+
+figure.effect-kira figcaption::before {
+	position: absolute;
+	top: 0;
+	right: 2em;
+	left: 2em;
+	z-index: -1;
+	height: 3.5em;
+	background: #fff;
+	content: '';
+	-webkit-transition: opacity .35s, -webkit-transform .35s;
+	transition: opacity .35s, transform .35s;
+	-webkit-transform: translate3d(0, 4em, 0) scale3d(1, .023, 1);
+	-ms-transform: translate3d(0, 4em, 0) scale3d(1, .023, 1);
+	transform: translate3d(0, 4em, 0) scale3d(1, .023, 1);
+	-webkit-transform-origin: 50% 0;
+	-ms-transform-origin: 50% 0;
+	transform-origin: 50% 0
+}
+
+figure.effect-kira:hover img {
+	opacity: .5
+}
+
+figure.effect-kira:hover .effect-description {
+	opacity: 1;
+	-webkit-transform: translate3d(0, 0, 0);
+	-ms-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0)
+}
+
+figure.effect-kira:hover figcaption::before {
+	opacity: .7;
+	-webkit-transform: translate3d(0, 5em, 0) scale3d(1, 1, 1);
+	-ms-transform: translate3d(0, 5em, 0) scale3d(1, 1, 1);
+	transform: translate3d(0, 5em, 0) scale3d(1, 1, 1)
+}
+/*This file was exported by "Export WP Page to Static HTML" plugin which created by ReCorp (https://myrecorp.com) */

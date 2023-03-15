@@ -1,0 +1,7 @@
+.intense.top-divider.paint {
+	-webkit-transform: scale(1, -1);
+	-ms-transform: scale(1, -1);
+	transform: scale(1, -1);
+	margin-top: -1px;
+}
+/*This file was exported by "Export WP Page to Static HTML" plugin which created by ReCorp (https://myrecorp.com) */

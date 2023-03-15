@@ -1,0 +1,136 @@
+figure.effect-terry {
+	background: #34495e
+}
+
+figure.effect-terry figcaption {
+	padding: 1em
+}
+
+figure.effect-terry figcaption::after,
+figure.effect-terry figcaption::before {
+	position: absolute;
+	width: 200%;
+	height: 200%;
+	border-style: solid;
+	border-color: #101010;
+	content: '';
+	-webkit-transition: -webkit-transform .35s;
+	transition: transform .35s
+}
+
+figure.effect-terry figcaption::before {
+	right: 0;
+	bottom: 0;
+	border-width: 0 70px 60px 0;
+	-webkit-transform: translate3d(70px, 60px, 0);
+	-ms-transform: translate3d(70px, 60px, 0);
+	transform: translate3d(70px, 60px, 0)
+}
+
+figure.effect-terry figcaption::after {
+	top: 0;
+	left: 0;
+	border-width: 15px 0 0 15px;
+	-webkit-transform: translate3d(-15px, -15px, 0);
+	-ms-transform: translate3d(-15px, -15px, 0);
+	transform: translate3d(-15px, -15px, 0)
+}
+
+figure.effect-terry img,
+figure.effect-terry .effect-description a {
+	-webkit-transition: opacity .35s, -webkit-transform .35s;
+	transition: opacity .35s, transform .35s
+}
+
+figure.effect-terry img {
+	opacity: .85
+}
+
+figure.effect-terry h2 {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	padding: .4em 10px;
+	width: 50%;
+	text-align: left;
+	padding-left: 20px;
+	-webkit-transition: -webkit-transform .35s;
+	transition: transform .35s;
+	-webkit-transform: translate3d(100%, 0, 0);
+	-ms-transform: translate3d(100%, 0, 0);
+	transform: translate3d(100%, 0, 0)
+}
+
+@media screen and (max-width:920px) {
+	figure.effect-terry h2 {
+		padding: .75em 10px;
+		font-size: 120%
+	}
+}
+
+figure.effect-terry .effect-description {
+	float: right;
+	clear: both;
+	text-align: left;
+	text-transform: none;
+	font-size: 111%;
+	opacity: 0
+}
+
+figure.effect-terry .effect-description a {
+	display: block;
+	margin-bottom: 1em;
+	color: #fff;
+	opacity: 0;
+	-webkit-transform: translate3d(90px, 0, 0);
+	-ms-transform: translate3d(90px, 0, 0);
+	transform: translate3d(90px, 0, 0)
+}
+
+figure.effect-terry .effect-description a:focus,
+figure.effect-terry .effect-description a:hover {
+	color: #f3cf3f
+}
+
+figure.effect-terry:hover figcaption::after,
+figure.effect-terry:hover figcaption::before {
+	-webkit-transform: translate3d(0, 0, 0);
+	-ms-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0)
+}
+
+figure.effect-terry:hover img {
+	opacity: .6
+}
+
+figure.effect-terry:hover h2,
+figure.effect-terry:hover .effect-description a {
+	-webkit-transform: translate3d(0, 0, 0);
+	-ms-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0)
+}
+
+figure.effect-terry:hover .effect-description a {
+	opacity: 1
+}
+
+figure.effect-terry:hover .effect-description a:first-child {
+	-webkit-transition-delay: .025s;
+	transition-delay: .025s
+}
+
+figure.effect-terry:hover .effect-description a:nth-child(2) {
+	-webkit-transition-delay: .05s;
+	transition-delay: .05s
+}
+
+figure.effect-terry:hover .effect-description a:nth-child(3) {
+	-webkit-transition-delay: .075s;
+	transition-delay: .075s
+}
+
+figure.effect-terry:hover .effect-description a:nth-child(4) {
+	-webkit-transition-delay: .1s;
+	transition-delay: .1s
+}
+/*This file was exported by "Export WP Page to Static HTML" plugin which created by ReCorp (https://myrecorp.com) */
